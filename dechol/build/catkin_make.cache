@@ -1,0 +1,2 @@
+forrviz/bevelonarm:forrviz/control
+-DCATKIN_DEVEL_PREFIX=/home/dodnt123/dechol/devel -DCMAKE_INSTALL_PREFIX=/home/dodnt123/dechol/install -G Unix Makefiles

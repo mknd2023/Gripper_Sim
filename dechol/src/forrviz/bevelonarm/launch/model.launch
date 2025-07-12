@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <param name="robot_description" textfile="$(find bevelonarm)/urdf/arm.urdf"/>
+    <arg name="rviz_config_file" default="$(find bevelonarm)/config/bevel.rviz"/>
+    
+    
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+    <node pkg="control" type="control.py" name="command_to_joint_state"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(arg rviz_config_file)"/>
+</launch>

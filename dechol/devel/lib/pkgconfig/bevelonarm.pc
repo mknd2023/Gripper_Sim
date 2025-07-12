@@ -1,0 +1,8 @@
+prefix=/home/dodnt123/dechol/devel
+
+Name: bevelonarm
+Description: Description of bevelonarm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
