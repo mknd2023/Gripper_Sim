@@ -1,6 +1,6 @@
 # gripper_sim
-**Author - Mukund S K**
-
+>**Author - Mukund S K**
+>
 >This project has been made as part of an attempt to simulate the end effector of a two-link arm on Rviz, as part of my work at Project Kratos, my college's Mars Rover Team.
 >
 >This project involves the use of an MPU6050 6-DOF IMU (Inertial Measurement Unit) and the library [MPU6050_light.h](https://github.com/rfetick/MPU6050_light.git) by rfetic. The data has been collected through the Robot Operating System and eventually published to the simulation on RViz. 
